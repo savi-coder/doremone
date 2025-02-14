@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    border: 1px solid red;
+
+}
+.main{
+    width: 500px;
+    height: 600px;
+    margin:100px  auto;
+   border: 1px solid red;
+}
+.headPart{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: blue;
+}
+.eyesOuter{
+    width: 100px;
+    margin: auto;
+    padding-top: 40px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.eyeIn{
+    width: 30px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.eyeBlackdot{
+    width: 15px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    background-color: black;
+}
+.eyewhitedot{
+    width: 5px;
+    height:5px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
+ .Nose{
+    width:25px;
+    height:10px ;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    align-items: center;
+    background-color: red;
+    margin: auto;
+}
+.mouthOuter{
+    width: 40px;
+    height: 30px;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 22px;
+    border-radius: 0% 0% 50% 50%;
+}
+.mouthInner{
+    width: 30px;
+    height:20px ;
+    background-color: red;
+    margin: auto;
+    border-radius: 0% 0% 50% 50%;
+}
+.Neck{
+    width:80px;
+    height:20px ;
+    margin-top:10px;
+     background-color: red;
+    margin: auto;
+     border-radius: 10px;
+}
+.neckInner{
+    width: 20px;
+    height: 20px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    margin: auto;
+}
+.bodyOuter{
+    width:200px;
+    height: 250px;
+    background-color: blue;
+    margin: auto;
+    border-radius:25px ;
+    display: flex; 
+     flex-direction: column;
+     align-items: center;
+     justify-content: flex-end;
+     position: relative;
+     }
+     .Hands-Left{
+        width: 120px;
+        height: 40px;
+        background-color: blue;
+        position: absolute;
+        top: 0px;
+        left: -80px;
+     }
+     .Hands-Right{
+        width: 120px;
+        height: 40px;
+        background-color: blue;
+        position: absolute;
+        top: 0px;
+        right: -80px;
+     }
+      .Handsouter-left{
+        width: 30px;
+        height:40px ;
+        border-radius: 50%;
+        /* margin-right: 150px; */
+        background-color: whitesmoke;
+     }
+     .Handsouter-right{
+        width: 30px;
+        height:40px;
+        border-radius: 50%;
+        margin-left:110px;
+        /* margin-right:10px solid white ; */
+        background-color: whitesmoke;
+     }
+.Pouch{
+    width: 80px;
+    height: 40px;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 0% 0% 50% 50%;
+    /* border-bottom-left-radius:100%;
+    border-bottom-right-radius: 100%; */
+}
+.LegsOuter{
+    display: flex;
+}
+.Legs{
+    width: 100px;
+    height:80px;
+    position: relative;
+
+}
+.LegsBottom{
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    top: 55px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.betweenLine{
+    height:80px;
+    width: 3px;
+    background-color: whitesmoke;
+}
